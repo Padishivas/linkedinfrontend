@@ -1,0 +1,109 @@
+.mynetwork{
+    display: flex;
+}
+ 
+
+.NetworkSideBar{
+    width: 15rem;
+    margin-top: 10rem;
+    height: 25rem;
+    border: 1px solid black;
+    margin-left: 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+
+.networkdata h4{
+ margin-left: 0.5rem;
+}
+
+.showless{
+    margin-left: 1rem;
+}
+
+.networkdatalist ul li{
+  list-style: none;
+ 
+}
+
+.networkdatalist ul li span{
+  margin-left: 1rem;
+  
+   
+}
+
+
+
+/* ............................middle one ................ */
+
+.invitation{
+   width: 100%;
+   height: 50%;
+   border: 2px solid ;
+   border-radius: 5px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 30px 30px;
+ scroll-behavior: smooth;
+ 
+}
+
+.invitation::-webkit-scrollbar {
+  display: none;
+}
+
+.invitation img{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+button{
+  width: 5rem;
+  height: 2rem;
+  text-align: center;
+  border:1px solid blue;
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.premium{
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  border:1px solid blue;
+  border-radius: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.inv-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* ................middle two .................... */
+
+.bothdivs{
+  flex-direction: column;
+  position: relative;
+  margin-left: 10rem;
+  margin-top: 10rem;
+  width: 60%;
+}
+
+.invitationtwo{
+  width: 100%;
+  height: 30%;
+  border: 2px solid;
+  margin-top: 3rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 40px;
+}

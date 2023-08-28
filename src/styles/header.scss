@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    padding: 5px;
+    display: flex;
+    background-color: #fff;
+    // column-gap: 100px;
+    justify-content: space-around;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    
+}
+.header2{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.logo{
+    height: 40px;
+}
+.inp{
+    height: 40px;
+    border: 0px solid;
+    border-width: 0px;
+}
+.searchbox{
+    border: 0px solid;
+    background-color: rgb(241, 235, 235);
+    height: 40px;
+    width:300px;
+    border-radius: 5px;
+}
+.icon{
+    font-size:20px;
+    width:60px;
+    color: rgb(85, 83, 83);
+}
+.btn{
+    height: 40px;
+}
+.link{
+    color:black !important;
+}
+.text1{
+    color: black;
+    text-decoration:underline;
+    font-size: 12px;
+}

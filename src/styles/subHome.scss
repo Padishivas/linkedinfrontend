@@ -1,0 +1,150 @@
+.welcome{
+    border:1px solid;
+    border-radius: 10px;
+    height:300px;
+   
+    position: relative;
+
+}
+
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: absolute;
+    left:40%;
+    top:20%;
+}
+.modal-content{
+    width: 50vw !important;
+    margin: 0 auto !important;
+}
+.modalbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img1{
+    border: 0px solid;
+    border-radius: 50%;
+}
+
+.postmain{
+    display: flex;
+    flex-direction: column;
+    border:1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    row-gap: 10px;
+    position: relative;
+}
+.line1{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.postinput{
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+
+}
+.feed{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 500px;
+    
+    
+}
+.pic{
+    position: absolute;
+    opacity: 0;
+}
+.postline1{
+    display: flex;
+    column-gap: 10px;
+}
+
+
+
+// .Timeline {
+//     display: flex;
+//     flex: 0.6;
+//     flex-direction: column;
+//     margin: 0px 30px;
+//     position: relative;
+// }
+
+// .pic {
+//     position: absolute;
+//     opacity: 0;
+//     z-index: 1;
+// }
+
+// .video{
+//     position: absolute;
+//     opacity: 0;
+//     z-index: 1;
+// }
+
+// .TimelineForm {
+//     display: flex;
+
+// }
+
+// .Timelineinput {
+//     display: flex;
+//     background-color: white;
+//     padding: 10px;
+//     border-radius: 10px;
+//     flex-direction: column;
+
+// }
+
+// .Timeline .Timelineinput form {
+//     display: flex;
+//     align-items: center;
+//     margin-bottom: 10px;
+//     flex: 1;
+// }
+
+// .Timeline .Timelineinput form input[type='text'] {
+//     flex: 1;
+//     border-radius: 20px;
+//     padding: 0px 10px;
+//     margin-left: 10px;
+//     height: 40px;
+//     outline: 0;
+//     border: 1px solid;
+// }
+
+// .Timeline .Timelineinput form input[type='submit'] {
+//     display: none;
+// }
+
+// .Timelineoptions {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     cursor: pointer;
+//     padding: 10px 10px;
+// }
+
+// .Timelineoptions .options {
+//     display: flex;
+//     align-items: center;
+//     color: #333;
+//     font-size: 14px;
+//     border-radius: 5px;
+// }
+
+// .Timelineoptions .options:hover {
+//     background-color: #eee;
+// }
+
+// .Timelineoptions .options svg {
+//     margin-right: 10px;
+// }
